@@ -2,8 +2,7 @@
   import '@/css/index.css';
   import Header from '$lib/components/Header.svelte';
   import UploadButton from '$lib/components/UploadButton.svelte';
-
-  let title = 'Crypto Basis';
+  import { CRYPTO_BASIS as title } from '@/constants';
 </script>
 
 <Header {title}/>
